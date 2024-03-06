@@ -1,2 +1,48 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #6592cf, #243d83, #eeb850  */
+body {
+    background-color: #6592cf;
+}
+
+.rectangle {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: #243d83;
+    left: 50px;
+    top: 75px;
+    z-index: 1;
+}
+
+.cercle-bleu-clair {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    background-color: #6592cf;
+    top: 30px;
+    left: 75px;
+    z-index: 2;
+}
+
+.cercle-bleu-fonce {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    background-color: #243d83;
+    top: 75px;
+    left: 125px;
+    z-index: 3;
+}
+
+.cercle-jaune {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #eeb850;
+    top: 125px;
+    left: 175px;
+    z-index: 4;
+}
