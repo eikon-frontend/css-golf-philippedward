@@ -1,2 +1,32 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #62374e, #fdc57b  */
+body {
+    background-color: #62374e;
+}
+
+.ex2 div {
+    width: 50px;
+    height: 50px;
+    background-color: #fdc57b;
+    position: relative;
+}
+
+.cube-top {
+    top: 50px;
+    left: 50px;
+}
+
+.cube-bottom {
+    top: 150px;
+    left: 50px;
+}
+
+.cube-left-top {
+    bottom: 50px;
+    left: 300px;
+}
+
+.cube-left-bottom {
+    top: 50px;
+    left: 300px;
+}

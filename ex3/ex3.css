@@ -1,2 +1,31 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #62306d, #f7ec7d  */
+body {
+    background-color: #62306d;
+}
+
+.ex3 div {
+    height: 100px;
+    width: 100px;
+    background-color: #f7ec7d;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+}
+
+.radius-1 {
+    left: 50px;
+    top: 150px;
+    transform: rotate(180deg)
+}
+
+.radius-2 {
+    left: 150px;
+    bottom: 50px;
+}
+
+.radius-3 {
+    left: 250px;
+    bottom: 50px;
+    transform: rotate(180deg)
+}
